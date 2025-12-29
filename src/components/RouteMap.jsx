@@ -8,7 +8,7 @@ export default function RouteMap({ start, end, route }) {
       <MapContainer
         center={[start.lat, start.lon]}
         zoom={7}
-        className="h-[350px] w-full"
+        className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px]"
       >
         <TileLayer
           attribution="© OpenStreetMap contributors"
